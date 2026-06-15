@@ -5,3 +5,4 @@ generate qr codes in terminal
 ```
 python main.py https://github.com
 ```
+
