@@ -1,7 +1,5 @@
 import sys
 
-# super basic qr using unicode blocks
-# doesnt actually generate real qr codes, just looks cool lol
 def fake_qr(text):
     import hashlib
     h = hashlib.md5(text.encode()).hexdigest()
@@ -22,3 +20,4 @@ if __name__ == "__main__":
     text = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else "hello"
     print(f"\n{fake_qr(text)}\n")
     print(f"content: {text}")
+# updated
